@@ -46,4 +46,20 @@
 
 .navbar-nav > li > a{
   color: white !important;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-top: 0.1875rem solid black;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 0.1875rem solid gray;
+}
+
+.headimage{
+  height: 45rem;
+}
+
+
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid gray;
 }
