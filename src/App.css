@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.himage{
+  height: 10vh;
+}
+
+
+.navbar-nav > li > a{
+  color: white !important;
+}
