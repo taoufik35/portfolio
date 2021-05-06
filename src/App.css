@@ -38,28 +38,49 @@
 }
 
 
+/* ******************************************NAV*************************************************** */
+
+
+nav{
+  width: 100%;
+}
 
 .himage{
   height: 10vh;
 }
-
 
 .navbar-nav > li > a{
   color: white !important;
   margin-right: 1rem;
   margin-left: 1rem;
   border-top: 0.1875rem solid black;
+  
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: 0.1875rem solid gray;
 }
 
-.headimage{
-  height: 45rem;
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid gray;
 }
 
 
-.navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid gray;
+
+/* ****************************************HEADER****************************************************** */
+
+.headimage{
+  height: 35rem;
+  width: 100%;
+}
+
+
+
+/* ************************TYPE TEXTE******************************* */
+
+.textAnime{
+  position: absolute;
+  font-size: 3em;
+  top: 20vh;
+  left: 66vh;
 }

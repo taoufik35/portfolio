@@ -1,14 +1,17 @@
 import React from "react";
 import header from './header.jpg';
+
  
 
 
 function Header() {
   // Import result is the URL of your image
   return(
-    <div>
+    <div className = "imagehead">
    <img className="headimage" src={header} alt="header" />
+
    </div>
+  
   
   );
 }
