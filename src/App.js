@@ -1,7 +1,12 @@
 import './App.css';
 import Nav from './component/layout/nav/Nav';
 import Header from './component/layout/header/Header';
-import Anime from 'react-anime';
+import Biographie from './component/biographie/Biographie';
+import Contact from './component/contact/Contact';
+import Projet from './component/projet/Projet';
+import Accueil from './component/accueil/Acceuil';
+
+
 
 
 
@@ -17,9 +22,24 @@ import {
 function App() {
   return (
     <div>
+      <Router>
       <Nav />
       <Header />
-    
+      <Switch>
+        <Route path="/accueil">
+          <Accueil />  
+            </Route>
+            <Route path="/biographie">
+              <Biographie />
+            </Route>
+            <Route path="/projet">
+              <Projet/>
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+          </Switch>
+    </Router>
     </div>
   );
 }

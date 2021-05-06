@@ -13,16 +13,16 @@ function Nav(){
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                    <a className="nav-link textColor-white" href="#">Accueil</a>
+                    <Link className="nav-link textColor-white" to="/accueil">Accueil</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Me découvrir</a>
+                    <Link className="nav-link" to="/biographie">Me découvrir</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Projets</a>
+                    <Link className="nav-link" to="/projet">Projets</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Contact</a>
+                    <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
