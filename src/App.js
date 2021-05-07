@@ -26,9 +26,6 @@ function App() {
       <Nav />
       <Header />
       <Switch>
-        <Route path="/accueil">
-          <Accueil />  
-            </Route>
             <Route path="/biographie">
               <Biographie />
             </Route>
@@ -38,6 +35,9 @@ function App() {
               <Route path="/contact">
                 <Contact />
               </Route>
+              <Route path="/">
+                <Accueil />  
+           </Route>
           </Switch>
     </Router>
     </div>

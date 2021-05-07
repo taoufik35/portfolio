@@ -1,40 +1,10 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root{
+  width: 100%;
 }
 
 
@@ -80,7 +50,58 @@ nav{
 
 .textAnime{
   position: absolute;
-  font-size: 3em;
+  font-size: 2em;
   top: 20vh;
-  left: 66vh;
+  left: 70vh;
 }
+
+
+/* ****************************************BIOGRAPHY PAGE****************************************************** */
+
+.descrption h1{
+  text-align: center;
+}
+
+.texte{
+  text-align: center;
+}
+
+.descrption{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7em;
+}
+.photo{
+  margin-top: 7em;
+ 
+}
+
+/* ****************************************CONTACT PAGE ****************************************************** */
+
+.iconSend img{
+  height: 10em;
+  border-right: 2px solid black;
+  padding-right : 10em;
+  margin-top: 5em;
+
+}
+
+.iconSend h1{
+  text-align: center;
+}
+.containe{
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+ 
+}
+
+.containe p{
+  margin-left: 4em;
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+
+
+
