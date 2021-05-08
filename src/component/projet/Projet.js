@@ -5,7 +5,7 @@ function Projet (){
     return(
         <div className= "textAnime">
         <Typical
-        steps={['welcome in the project page', 5000]}
+        steps={['Welcome in the project page', 5000]}
         loop={Infinity}
         wrapper="p"
       />

@@ -7,7 +7,7 @@ function Biographie (){
     <div>
         <div className= "textAnime">
         <Typical
-        steps={[ ' welcome in my biography page', 2000]}
+        steps={[ ' Welcome in my biography page', 2000]}
         loop={Infinity}
         wrapper="p"
       />

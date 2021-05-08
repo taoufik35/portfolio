@@ -5,6 +5,8 @@ import Biographie from './component/biographie/Biographie';
 import Contact from './component/contact/Contact';
 import Projet from './component/projet/Projet';
 import Accueil from './component/accueil/Acceuil';
+import Footer from './component/layout/footer/Footer';
+
 
 
 
@@ -26,6 +28,9 @@ function App() {
       <Nav />
       <Header />
       <Switch>
+        <Route path="/accueil">
+          <Accueil />  
+            </Route>
             <Route path="/biographie">
               <Biographie />
             </Route>
@@ -35,10 +40,8 @@ function App() {
               <Route path="/contact">
                 <Contact />
               </Route>
-              <Route path="/">
-                <Accueil />  
-           </Route>
           </Switch>
+          <Footer />
     </Router>
     </div>
   );
