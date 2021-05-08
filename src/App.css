@@ -100,7 +100,11 @@ font-size: 2em;
 margin-top: 2em;
 text-align: justify;
 }
-
+.icone{
+  display: flex;
+  justify-content: center;
+  
+}
 
 
 
