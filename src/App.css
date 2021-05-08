@@ -52,7 +52,7 @@ nav{
   position: absolute;
   font-size: 2em;
   top: 20vh;
-  left: 70vh;
+  left: 80vh;
 }
 
 
@@ -80,9 +80,8 @@ nav{
 
 .iconSend img{
   height: 10em;
-  border-right: 2px solid black;
-  padding-right : 10em;
-  margin-top: 5em;
+ 
+  margin-top: 3em;
 
 }
 
@@ -91,15 +90,15 @@ nav{
 }
 .containe{
   display: flex;
-  justify-content: center;
-  margin-left: 30%;
+justify-content: space-around;  
+
  
 }
 
 .containe p{
-  margin-left: 4em;
-  margin-top: 2em;
-  font-size: 2em;
+font-size: 2em;
+margin-top: 2em;
+text-align: justify;
 }
 
 

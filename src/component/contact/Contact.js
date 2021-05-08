@@ -7,9 +7,9 @@ function Contact (){
     return(
 
       <div>
-        <div className= "textAnime">
+        <div className= "textAnime text-center">
         <Typical
-        steps={['welcome in the contact page', 5000]}
+        steps={['Welcome in the contact page', 5000]}
         loop={Infinity}
         wrapper="p"
       />
@@ -20,12 +20,12 @@ function Contact (){
             Contact
         </h1>
         <div className= "containe">
-        <a href="mailto:voutib@gmail.com"><img src={Gmail} alt="iconesend"/></a>
-        
         <p>
-          Pour tout projet professionnel<br/> n'hesiter pas a me contacter en m'envoyant un mail<br/> en cliquant sur l'enveloppe.<br/> 
+          N'hésitez pas à me contacter en m'envoyant un mail<br/> Pour tout projet professionnel ou toutes autres informations<br/> en cliquant sur l'enveloppe.<br/> 
           Á trés vite :-) !!! 
         </p>
+        <a href="mailto:voutib@gmail.com"><img src={Gmail} alt="iconesend"/></a>
+        
         </div>
         </div>
 
