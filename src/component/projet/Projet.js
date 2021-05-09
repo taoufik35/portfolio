@@ -1,6 +1,7 @@
 import React from 'react';
 import Typical from "react-typical";
-import Files from "./files"
+
+import Article from "./article/Article";
 
 
 function Projet (){
@@ -14,8 +15,9 @@ function Projet (){
       />
         </div>
       
-        <div className="content">
-          <Files/>
+        <div className="content ">
+          <h1>Projets de formation</h1>
+          <Article />
         </div>
       </div>  
     )

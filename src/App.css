@@ -108,6 +108,30 @@ text-align: justify;
 .social{
   margin-left: 2em;
 }
+/* ****************************************PROJECT PAGE ****************************************************** */
+.card{
+   margin-right: 2em;
+  margin-top: 4em;
+}
 
-
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+.content{
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+.github{
+  margin-right: 10px;
+}
+.cardtitle{
+  font-size: 3em;
+}
+.cardtext{
+font-size: 2em;
+}
 

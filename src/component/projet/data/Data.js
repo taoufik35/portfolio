@@ -1,9 +1,8 @@
 
-{
 
 
 
-    "files" :[
+     export const data = [
         {
             "url": "./component/projet/banque.png",
             "id" : 0,
@@ -35,4 +34,3 @@
             
         }
     ]
-}
