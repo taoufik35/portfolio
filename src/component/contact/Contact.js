@@ -7,7 +7,7 @@ function Contact (){
     return(
 
       <div>
-        <div className= "textAnime text-center">
+        <div className= "textAnime ">
         <Typical
         steps={['Welcome in the contact page', 5000]}
         loop={Infinity}

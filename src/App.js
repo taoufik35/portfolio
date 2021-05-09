@@ -14,6 +14,7 @@ import Footer from './component/layout/footer/Footer';
 
 
 
+
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -41,6 +42,7 @@ function App() {
           <Accueil />  
             </Route>
           </Switch>
+          
           <Footer />
     </Router>
     </div>
