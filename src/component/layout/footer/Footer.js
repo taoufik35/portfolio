@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaTwitter, FaLinkedin} from "react-icons/fa";
 function Footer(){
     return(
         <footer className= "bg-dark p-2 text-white text-center" >
-            <p>Merci React js !</p>
+            <p>Merci de votre visite et à bientôt !!</p>
 
             <div className ="icone">
                 <div className ="social">

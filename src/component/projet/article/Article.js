@@ -3,6 +3,7 @@ import banque from "../banque.png";
 import norimmo from "../norimmo.png";
 import jeu from "../jeu.png";
 import terre from "../terre.png";
+import star from "../star.png";
 
 import {
   Card, CardImg, CardText, CardBody,
@@ -33,22 +34,30 @@ const Article = () => {
         {
             image : norimmo,
             title : "Projet Norimmo",
-            content : "Ce projet est un devoir réaliser en groupe, ou j'ai été nommé lead dev par mes camarade et le but été la gestion d'un projet de groupe en tant que Lead dev (gestion des taches a réaliser ,gestion des reunion journalière, gestion du repository GitHub).",
+            content : "Ce projet est un devoir réaliser en groupe, ou j'ai été nommé lead dev par mes camarades et le but été la gestion d'un projet de groupe en tant que Lead dev (gestion des taches a réaliser ,gestion des reunion journalière, gestion du repository GitHub).",
             linkGitHub : "https://github.com/taoufik35/norImmo",
             linkGhPage : "https://taoufik35.github.io/norImmo/"
         },
         {
             image : terre,
             title : "Projet Terre de geek",
-            content : "Ce projet consistai a réaliser un site e-commerce afin de developper l'activité d'une entreprise qui ne possedait pas de site web.",
+            content : "Ce projet consiste a réaliser un site e-commerce afin de developper l'activité d'une entreprise qui ne possedait pas de site web.",
             linkGitHub : "https://github.com/taoufik35/Terre_de_geek",
             linkGhPage : "https://taoufik35.github.io/Terre_de_geek/"
+        },
+
+        {
+            image : star,
+            title : "Projet starWars React",
+            content : "Ce projet consiste a récuperer depuis une Api (swappi) des informations concernant la saga starWars par des reqêtes Ajax en  React JS",
+            linkGitHub : "https://github.com/taoufik35/projet-react",
+            linkGhPage : "https://taoufik35.github.io/projet-react/"
         }
     ];
     const renderCard = (card , index) => {
          return(
             
-                <Card className= " card col-3 col-sm-4 col-lg-4" key ={index}>
+                <Card className= " card col-3 col-sm-4 col-lg-3" >
                     <CardImg  src=  {card.image}  />
                     <CardBody>
                     <CardTitle className="cardtitle" tag="h5">{card.title}</CardTitle>
