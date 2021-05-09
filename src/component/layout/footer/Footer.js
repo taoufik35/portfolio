@@ -8,33 +8,33 @@ function Footer(){
             <p>Merci React js !</p>
 
             <div className ="icone">
-                <div>
+                <div className ="social">
                     <a 
                     href ="https://www.facebook.com/taoufik.aitdra/">
-                    <FaFacebook size = "2em" color= "darkblue" />
+                    <FaFacebook size = "4em" color= "darkblue" />
                     </a>
 
                 </div>
 
-                <div>
+                <div className ="social">
 
                 <a href="https://github.com/taoufik35">
-                < FaGithub  size = "2em" color = "black" /> 
+                < FaGithub  size = "4em" color = "black" /> 
                 </a>
 
                 </div>
 
-                <div>
+                <div className ="social">
 
                 <a href= "https://twitter.com/TaoufikDra">
-                < FaTwitter  size = "2em" />
+                < FaTwitter  size = "4em" />
                 </a>
 
                 </div>
 
-                <div>
+                <div className ="social">
                 <a href= "https://www.linkedin.com/in/ait-dra-taoufik-b23173207/">
-                < FaLinkedin  size = "2em"/>
+                < FaLinkedin  size = "4em"/>
                 </a>
 
                 </div>
