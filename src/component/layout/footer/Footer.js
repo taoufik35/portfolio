@@ -11,7 +11,7 @@ function Footer(){
                 <div className ="social">
                     <a 
                     href ="https://www.facebook.com/taoufik.aitdra/">
-                    <FaFacebook size = "4em" color= "darkblue" />
+                    <FaFacebook size = "2em" color= "darkblue" />
                     </a>
 
                 </div>
@@ -19,7 +19,7 @@ function Footer(){
                 <div className ="social">
 
                 <a href="https://github.com/taoufik35">
-                < FaGithub  size = "4em" color = "black" /> 
+                < FaGithub  size = "2em" color = "black" /> 
                 </a>
 
                 </div>
@@ -27,14 +27,14 @@ function Footer(){
                 <div className ="social">
 
                 <a href= "https://twitter.com/TaoufikDra">
-                < FaTwitter  size = "4em" />
+                < FaTwitter  size = "2em" />
                 </a>
 
                 </div>
 
                 <div className ="social">
                 <a href= "https://www.linkedin.com/in/ait-dra-taoufik-b23173207/">
-                < FaLinkedin  size = "4em"/>
+                < FaLinkedin  size = "2em"/>
                 </a>
 
                 </div>
