@@ -118,51 +118,56 @@ text-align: justify;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
  
 }
 .content{
   text-align: center;
   margin-top: 3em;
   margin-bottom: 2em;
+  margin-right: 6em;
 }
 .github{
   margin-right: 2em;
-  font-size: 2em;
+  font-size: 1em;
   color: black;
 }
 .ghpage{
  
-  font-size: 2em;
+  font-size: 1em;
 }
 .cardtitle{
-  font-size: 3em;
+  font-size: 2em;
 }
 .cardtext{
-font-size: 2em;
+font-size: 1em;
 }
 /* **************************************** homePAGE ****************************************************** */
 
-.cardImg{
-  height: 100px;
-  width: 45%;
-  margin-left: 35px;
-  
-  
-}
+
 .class-col {
   display: flex;
   justify-content: center;
   border: 1px solid black;
-  margin-bottom: 2em;
+  margin-bottom: 10em;
   margin-top: 2em;
-  padding: 0 2em 0 2em;
+  padding: 0 4em 0 4em;
 
 
 }
 
-.main-container {
-  display: flex;
-}
 .competence {
   text-align: center;
+}
+.gride{
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: 4em;
+  
+  
+}
+.ti{
+  border-bottom:  2px solid black;
 }

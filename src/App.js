@@ -42,7 +42,6 @@ function App() {
           <Accueil />  
             </Route>
           </Switch>
-          
           <Footer />
     </Router>
     </div>

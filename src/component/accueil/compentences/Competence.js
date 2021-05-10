@@ -48,11 +48,11 @@ const Competences = () =>{
                 <div>
                 <Container>
 
-                    <Row className="container">
+                    <Row className="main-container ">
                         <Col sm="3" className="class-col">
                     <CardBody>
                         <CardTitle className="ti" tag="h5">{Card.title}</CardTitle>
-                        <CardImg className = "cardImg text-center"  src=  {Card.img}  />
+                        <CardImg className = "cardimg text-center"  src=  {Card.img}  />
                     </CardBody>
                     </Col>
                 </Row>
@@ -65,7 +65,7 @@ const Competences = () =>{
 
         
     }
-    return <div className="grid" >{compét.map(card)}</div>;
+    return <div className="gride" >{compét.map(card)}</div>;
 }
 
 
