@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.08a568c7.chunk.css",
+    "main.js": "/portfolio/static/js/main.25976e32.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.25976e32.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c30f188e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c30f188e.js.map",
+    "static/js/2.14a60604.chunk.js": "/portfolio/static/js/2.14a60604.chunk.js",
+    "static/js/2.14a60604.chunk.js.map": "/portfolio/static/js/2.14a60604.chunk.js.map",
+    "static/js/3.e660b0fb.chunk.js": "/portfolio/static/js/3.e660b0fb.chunk.js",
+    "static/js/3.e660b0fb.chunk.js.map": "/portfolio/static/js/3.e660b0fb.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.08a568c7.chunk.css.map": "/portfolio/static/css/main.08a568c7.chunk.css.map",
+    "static/js/2.14a60604.chunk.js.LICENSE.txt": "/portfolio/static/js/2.14a60604.chunk.js.LICENSE.txt",
+    "static/media/Gmail.e170b065.png": "/portfolio/static/media/Gmail.e170b065.png",
+    "static/media/banque.8e5a7641.png": "/portfolio/static/media/banque.8e5a7641.png",
+    "static/media/bootstrap.b74e54d4.png": "/portfolio/static/media/bootstrap.b74e54d4.png",
+    "static/media/css.9a088dd1.png": "/portfolio/static/media/css.9a088dd1.png",
+    "static/media/header.325dbc49.jpg": "/portfolio/static/media/header.325dbc49.jpg",
+    "static/media/html.f3aa7827.png": "/portfolio/static/media/html.f3aa7827.png",
+    "static/media/javascript.26cd97a1.png": "/portfolio/static/media/javascript.26cd97a1.png",
+    "static/media/jeu.50aeecd1.png": "/portfolio/static/media/jeu.50aeecd1.png",
+    "static/media/logoNav.54308a5d.png": "/portfolio/static/media/logoNav.54308a5d.png",
+    "static/media/moi.1ec0d3ce.png": "/portfolio/static/media/moi.1ec0d3ce.png",
+    "static/media/norimmo.9bbcbecb.png": "/portfolio/static/media/norimmo.9bbcbecb.png",
+    "static/media/react.73ac128a.png": "/portfolio/static/media/react.73ac128a.png",
+    "static/media/regex.fe79e416.png": "/portfolio/static/media/regex.fe79e416.png",
+    "static/media/star.4ed040d1.png": "/portfolio/static/media/star.4ed040d1.png",
+    "static/media/terre.7faa80c6.png": "/portfolio/static/media/terre.7faa80c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c30f188e.js",
+    "static/js/2.14a60604.chunk.js",
+    "static/css/main.08a568c7.chunk.css",
+    "static/js/main.25976e32.chunk.js"
+  ]
+}
