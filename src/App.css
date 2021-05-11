@@ -40,7 +40,7 @@ nav{
 /* ****************************************HEADER****************************************************** */
 
 .headimage{
-  height: 35rem;
+  height: 10rem;
   width: 100%;
 }
 
@@ -50,9 +50,9 @@ nav{
 
 .textAnime{
   position: absolute;
-  font-size: 2em;
-  top: 20vh;
-  left: 80vh;
+  font-size: 1em;
+  top: 33vh;
+  left: 13vh;
 }
 
 
@@ -112,6 +112,8 @@ text-align: justify;
 .card{
    margin-right: 2em;
   margin-top: 4em;
+  word-wrap: none;
+  min-width: 227px;
 }
 
 .grid{
@@ -125,22 +127,27 @@ text-align: justify;
   text-align: center;
   margin-top: 3em;
   margin-bottom: 2em;
-  margin-right: 6em;
+  margin-right: 1em;
 }
 .github{
   margin-right: 2em;
   font-size: 1em;
   color: black;
+  margin-bottom: 2em;
 }
 .ghpage{
  
   font-size: 1em;
+  margin-bottom: 2em;
 }
 .cardtitle{
   font-size: 2em;
 }
 .cardtext{
 font-size: 1em;
+}
+.card-body{
+  padding: 0;
 }
 /* **************************************** homePAGE ****************************************************** */
 
@@ -162,6 +169,7 @@ font-size: 1em;
 .gride{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 20px;
   margin-top: 4em;
@@ -170,4 +178,25 @@ font-size: 1em;
 }
 .ti{
   border-bottom:  2px solid black;
+}
+
+@media only screen and (min-width: 756px){
+
+  .card{
+
+  }
+
+  .textAnime{
+    top: 20vh;
+    left: 80vh;
+    font-size: 2em;
+  }
+  .content{
+    margin-right: 6em;
+  }
+  .headimage{
+    height: 35rem;
+  }
+
+
 }
