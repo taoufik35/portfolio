@@ -214,9 +214,17 @@ font-size: 1em;
   }
 
   .gride{
-    flex-wrap: nowrap;
+    flex-wrap:wrap;
+    
   }
 
 
 
+}
+
+@media only screen and (min-width: 756px){
+  .gride{
+    flex-wrap:nowrap;
+    
+  }
 }
