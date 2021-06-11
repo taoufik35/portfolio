@@ -148,7 +148,11 @@ font-size: 1em;
 }
 .card-body{
   padding: 0;
+  width: 100%;
+
+  text-align: center;
 }
+
 /* **************************************** homePAGE ****************************************************** */
 
 
@@ -174,10 +178,23 @@ font-size: 1em;
   margin-left: 20px;
   margin-top: 4em;
   
-  
+}
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .ti{
-  border-bottom:  2px solid black;
+  
+  width: 100%;
+}
+.text-center {
+  text-align: center!important;
+  width: 100%;
+  margin-left: 0px;
+  height: 80px;
 }
 
 @media only screen and (min-width: 756px){
@@ -199,9 +216,7 @@ font-size: 1em;
   .gride{
     flex-wrap: nowrap;
   }
-  .row{
-    margin-left: 2em;
-  }
+
 
 
 }
